@@ -12,20 +12,20 @@ function App() {
 
 
 <button onClick={(e)=> {
-  func(val+1);
+  func(val-1);
 }}
 >
-  Add new
+  Low new
   
 </button>
 
 <span>{val}</span>
 
 <button onClick={(e)=> {
-  func(val-1);
+  func(val+1);
 }}
 >
-  Low new
+  Add new
   
 </button>
 <hr/>
